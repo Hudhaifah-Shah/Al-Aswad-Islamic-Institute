@@ -602,6 +602,10 @@ video {
   z-index: 10;
 }
 
+.z-20 {
+  z-index: 20;
+}
+
 .float-left {
   float: left;
 }
@@ -732,6 +736,10 @@ video {
 
 .h-\[87\.6vh\] {
   height: 87.6vh;
+}
+
+.h-\[100vh\] {
+  height: 100vh;
 }
 
 .min-h-\[120vh\] {
@@ -1077,6 +1085,18 @@ video {
 
 .pr-8 {
   padding-right: 2rem;
+}
+
+.pt-14 {
+  padding-top: 3.5rem;
+}
+
+.pt-16 {
+  padding-top: 4rem;
+}
+
+.pt-20 {
+  padding-top: 5rem;
 }
 
 .text-left {
