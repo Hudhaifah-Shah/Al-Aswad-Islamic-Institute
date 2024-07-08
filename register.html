@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./build/css/styles.css">
+    <link rel="shortcut icon" href="logo.svg" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/542da283cf.js" crossorigin="anonymous"></script>
+</head>
+<body class="bg-slate-50 dark:bg-black text-white min-h-screen bg-[url('https://cdn.pixabay.com/photo/2022/03/27/03/16/islamic-7093978_1280.jpg')] bg-no-repeat bg-cover bg-fixed">
+    <section class="bg-[url('https://t4.ftcdn.net/jpg/05/12/16/47/360_F_512164771_mCQUWVfAhaVWpjTVGYuSWRJL2z3hIQ3s.jpg')] bg-cover bg-no-repeat sticky top-0 z-10">
+        <nav class="flex text-white justify-around items-center min-h-[8vh] bg-emerald-700 dark:bg-opacity-50 bg-opacity-50 backdrop-blur">
+            
+            <div>
+                <img src="logo.svg" alt="Logo" class="w-32 m-2 mt-3">
+            </div>
+            <ul class="flex gap-x-8 mobile:hidden">
+                <li class=""><a href="index.html" class="hover:text-emerald-300">Home</a></li>
+                <li class=""><a href="#footer" class="hover:text-emerald-300">Contact</a></li>
+                <li class=""><a href="register.html" class="hover:text-emerald-300">Join Us</a></li>
+            </ul>
+            <div class="burger block md:hidden cursor-pointer">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </section>
+    <div>
+        <ul class="md:hidden nav-links flex fixed right-0 h-[92vh] top-[8vh] flex-col justify-around items-center w-4/5 bg-emerald-900 dark:bg-emerald-700 bg-opacity-80 dark:bg-opacity-50 backdrop-blur translate-x-full transition-nav text-white z-10">
+            <li class="opacity-0"><a href="index.html" class="hover:pl-8 text-lg">Home</a></li>
+            <li class="opacity-0"><a href="register.html" class="hover:pl-8 text-lg">Join Us</a></li>
+        </ul>
+    </div>
+    <section class="w-4/5 min-h-[120vh] bg-emerald-800 bg-opacity-30 backdrop-blur-xl mx-auto mt-32 border-t-2 border-r-2 border-opacity-10 border-white rounded-3xl mb-16">
+        <h1 class="text-center text-4xl mt-16 font-bold font-sans">Register</h1>
+        <form id="login-form" action="https://formsubmit.co/hudhaifahshah365@gmail.com" method="post" class="w-full flex flex-col justify-between items-center mt-8 gap-y-6">
+            <input type="hidden" name="_template" value="table">
+            <input type="hidden" name="_subject" value="New submission!">
+            <input type="hidden" name="_captcha" value="false">
+            <input required type="text" name="name" id="name" placeholder="Name" class="w-3/5 h-14 rounded-xl p-5 border-emerald-800 border-2 placeholder:text-slate-500 placeholder:font-semibold text-black font-semibold outline-none">
+            <input required type="number" name="age" id="age" placeholder="Age" class="w-3/5 h-14 rounded-xl p-5 border-emerald-800 border-2 placeholder:text-slate-500 placeholder:font-semibold text-black font-semibold outline-none">
+            <select id="gender" name="Gender" class="w-3/5 h-14 rounded-xl pl-4 border-emerald-800 border-2 text-slate-500 font-semibold outline-none" required>
+                <option disabled selected value="">Gender</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select>
+            <input required type="text" name="languages" id="languages" placeholder="Spoken Languages" class="w-3/5 h-14 rounded-xl p-5 border-emerald-800 border-2 placeholder:text-slate-500 placeholder:font-semibold text-black font-semibold outline-none">
+            <input required type="email" name="email" id="email" placeholder="Email" class="w-3/5 h-14 rounded-xl p-5 border-emerald-800 border-2 placeholder:text-slate-500 placeholder:font-semibold text-black font-semibold outline-none">
+            <input required type="tel" name="whatsapp" id="whatsapp" placeholder="WhatApp number" class="w-3/5 h-14 rounded-xl p-5 border-emerald-800 border-2 placeholder:text-slate-500 placeholder:font-semibold text-black font-semibold outline-none">
+            <button type="submit" id="submit-btn" class="w-3/5 h-14 rounded-xl border-emerald-800 border-2 bg-emerald-800 font-semibold font-sans tracking-wide">Register</button>
+        </form>
+    </section>
+    <footer id="footer" class="bg-[url('https://t4.ftcdn.net/jpg/05/12/16/47/360_F_512164771_mCQUWVfAhaVWpjTVGYuSWRJL2z3hIQ3s.jpg')] bg-cover bg-no-repeat scroll-mt-20">
+        <section class="w-full min-h-[15rem] bg-emerald-800 bg-opacity-50 backdrop-blur  py-28 text-white">
+            <section class="flex pl-24 justify-evenly gap-y-8 flex-col sm:flex-row">
+                <section class="space-y-6">
+                    <h1 class="text-xl font-serif font-medium"><span class="underline underline-offset-8 underline-color">Al-Asw</span>ad Islamic Institute</h1>
+                    <ul class="space-y-4 text-slate-300 font-medium">
+                        <li><a href="index.html" class="hover:pl-4 footer-links hover:text-slate-50">Home</a></li>
+                        <li><a href="register.html" class="hover:pl-4 footer-links hover:text-slate-50">Join Us</a></li>
+                    </ul>
+                </section>
+                <section class="space-y-6">
+                    <h1 class="text-xl font-serif font-medium"><span class="underline underline-offset-8 underline-color">Foll</span>ow Us</h1>
+                    <section class="space-x-3">
+                        <a href="https://twitter.com" target="_blank" class="inline-block bg-emerald-800 h-10 w-10 text-lg rounded-full text-center social-links hover:bg-slate-300 hover:text-emerald-800">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://www.linkedin.com" target="_blank" class="inline-block bg-emerald-800 h-10 w-10 text-lg rounded-full text-center social-links hover:bg-slate-300 hover:text-emerald-800">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="mailto:" target="_blank" class="inline-block bg-emerald-800 h-10 w-10 text-lg rounded-full text-center social-links hover:bg-slate-300 hover:text-emerald-800">
+                            <i class="fa-solid fa-envelope"></i>
+                        </a>
+                        <a href="https://wa.me/92" target="_blank" class="inline-block bg-emerald-800 h-10 w-10 text-lg rounded-full text-center social-links hover:bg-slate-300 hover:text-emerald-800">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+                    </section>
+                </section>
+            </section>
+            <hr class="mx-auto bg-black dark:bg-white w-2/3 mt-14"/>
+            <h1 class="text-center mt-14 -mb-14">Al-Aswad Islamic Institute © <script>document.write(new Date().getFullYear())</script> Copyrights. All Rights Reserved</h1>
+        </section>
+    </footer>
+</body>
+</html>
+<script src="./build/script.js"></script>

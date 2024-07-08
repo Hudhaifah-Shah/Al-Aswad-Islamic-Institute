@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/542da283cf.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="./build/css/styles.css">
+    <link rel="shortcut icon" href="logo.svg" type="image/x-icon">
+</head>
+<body class="bg-slate-50 dark:bg-black dark:text-white min-h-screen">
+    <section class="bg-[url('https://t4.ftcdn.net/jpg/05/12/16/47/360_F_512164771_mCQUWVfAhaVWpjTVGYuSWRJL2z3hIQ3s.jpg')] bg-cover bg-no-repeat sticky top-0 z-10">
+        <nav class="flex text-white justify-around items-center min-h-[8vh] bg-emerald-700 dark:bg-opacity-50 bg-opacity-50 backdrop-blur">
+            <div>
+                <img src="logo.svg" alt="Logo" class="w-32 m-2 mt-3">
+            </div>
+            <ul class="flex gap-x-8 mobile:hidden">
+                <li class=""><a href="index.html" class="hover:text-emerald-300">Home</a></li>
+                <li class=""><a href="#mission" class="hover:text-emerald-300">Our Mission</a></li>
+                <li class=""><a href="#testimonials" class="hover:text-emerald-300">Testimonials</a></li>
+                <li class=""><a href="#choice" class="hover:text-emerald-300">The Choice</a></li>
+                <li class=""><a href="#footer" class="hover:text-emerald-300">Contact</a></li>
+                <li class=""><a href="register.html" class="hover:text-emerald-300">Join Us</a></li>
+            </ul>
+            <div class="burger block md:hidden cursor-pointer">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </section>
+    
+    <div>
+        <ul class="md:hidden nav-links flex fixed right-0 h-[92vh] top-[8vh] flex-col justify-around items-center w-4/5 bg-emerald-900 dark:bg-emerald-700 bg-opacity-80 dark:bg-opacity-50 backdrop-blur translate-x-full transition-nav text-white z-10">
+            <li class="opacity-0"><a href="index.html" class="hover:pl-8 text-lg">Home</a></li>
+            <li class="opacity-0"><a href="#mission" class="hover:pl-8 text-lg">Our Mission</a></li>
+            <li class="opacity-0"><a href="#testimonials" class="hover:pl-8 text-lg">Testimonials</a></li>
+            <li class="opacity-0"><a href="#choice" class="hover:pl-8 text-lg">The Choice</a></li>
+            <li class="opacity-0"><a href="#footer" class="hover:pl-8 text-lg">Contact</a></li>
+            <li class="opacity-0"><a href="register.html" class="hover:pl-8 text-lg">Sign Up</a></li>
+        </ul>
+    </div>
+    <main class="mt-24">
+        <section id="hero" class="md:gap-x-8 p-4 flex flex-col items-center md:flex-row">
+            <img src="./img/mosque.png" alt="Picture of Kaaba" class="max-w-[17rem] sm:max-w-xs md:max-w-sm rounded-b-full">
+            <section class="flex flex-col items-center gap-y-4 md:gap-y-6">
+                <h1 class="text-4xl text-center sm:text-5xl font-bold font-[Calibri]">Welcome to <span class="text-emerald-700 dark:text-emerald-600"><span class="whitespace-nowrap">Al-Aswad</span> Islamic Institute</span></h1>
+                <p class="sm:text-2xl text-xl text-slate-700 dark:text-slate-400">Where we will accompany you on your journey towards a much better, spiritual and meaningful life...</p>
+                <p class="sm:text-2xl text-xl text-slate-700 dark:text-slate-400">Enlighten yourself with the Holy Book of Allah</p>
+                <a href="register.html"><button class="px-6 py-3 text-xl hidden lg:block font-semibold mt-8 border-4 rounded-full hover:bg-emerald-700 hover:text-white border-emerald-700 dark:border-emerald-700">Join Us Now!</button></a>
+            </section>
+        </section>
+        <a href="register.html"><button class="px-6 py-3 text-xl hidden md:block lg:hidden font-semibold mt-3 mb-12 border-4 rounded-full hover:bg-emerald-700 hover:text-white border-emerald-700 dark:border-emerald-700 mx-auto">Join Us Now!</button></a>
+        <hr class="mx-auto bg-black dark:bg-white w-1/2 mt-8 md:mt-4"/>
+        <section id="mission" class="scroll-mt-20">
+            <article class="max-w-6xl p-8 flex flex-col mx-auto items-center mt-10 gap-y-8">
+                <p class="text-xl sm:text-2xl text-slate-900 dark:text-slate-300">In a world of modernization, where it is almost impossible to escape technology, it has become a lot more difficult to hold onto our religion. We are being distracted from our purpose by what they call <i>"entertainment"</i>. And the more society modernizes, the more important it becomes for us revert back to our creator.</p> 
+                <h1 class="text-4xl font-semibold sm:text-5xl font-[Calibri]">Our Mission</h1>
+                <span>
+                    <div class="w-40 h-40 bg-zinc-600 self-start float-left mr-8 hidden"></div>
+                    <img src="./img/kiddos.png" alt="Kids" class="w-40 h-40 self-start float-left mr-8">
+                    <p class="text-xl sm:text-2xl text-slate-900 dark:text-slate-300 pr-12">
+                    The only way we can escape the evil in this world is by following the guidelines of Allah and making the Quran our companion in this life. But to do so, it is important that we properly learn the Quran ourselves and guide others to do so as well. That is exactly what <b>WE</b> will help you achieve... Join us and begin your journey towards a better life</p>
+                </span>
+            </article>
+        </section>
+        <a href="register.html"><button class="hover:bg-emerald-700 hover:text-white border-emerald-700 dark:border-emerald-700 px-6 py-3 text-xl font-semibold border-4 rounded-full  my-10 mx-auto block md:hidden">Join Us Now!</button></a>
+        <hr class="mx-auto bg-black dark:bg-white w-1/2 mt-16 mb-16"/>
+        <section class="md:flex md:flex-row md:justify-center">
+            <img src="./img/family.png" alt="A family reading the Quran together" class="max-w-xs sm:max-w-md md:hidden mx-auto">
+            <img src="./img/quran.png" alt="Picture of Quran" class="max-w-[17rem] h-full hidden md:block self-center">
+            <section class="flex flex-col gap-y-8 mt-10 px-8">
+                <h1 class="text-4xl font-semibold sm:text-5xl">Why choose us?</h1>
+                <p class="text-xl sm:text-2xl text-slate-900 dark:text-slate-300">There are alot of great places to learn the Holy Quran online. So why choose us? Here at Al-Aswad Islamic Institute,</p> 
+                <ul class="text-xl sm:text-2xl text-slate-900 dark:text-slate-300 list-['✔️'] flex flex-col gap-y-4 pl-24">
+                    <li class="pl-2">You will get 3 free trial classes so you can decide whether you want to continue or not. After all, your satisfaction and results matter more.</li>
+                    <li class="pl-2">We believe that practise will only make you perfect if you have the right guidance from the right mentor... Which is why we provide you with the best teachers who will hold your hand as they take you through the process</li>
+                    <li class="pl-2">Learning to properly recite the Quran can become quite stressful, especially for youngsters, which is why we provide a fun and easy way that works</li>
+                </ul>
+                <p class="text-xl sm:text-2xl text-slate-900 dark:text-slate-300">Thats why!</p>
+                <a href="register.html"><button class="px-6 py-3 text-xl font-semibold border-4 rounded-full hover:bg-emerald-700 hover:text-white border-emerald-700 dark:border-emerald-700 my-5 mx-auto block">Join Us Now!</button></a>
+            </section>
+        </section>
+        
+        <hr class="mx-auto bg-black dark:bg-white w-1/2 mt-12 mb-16"/>
+        <section
+        id="testimonials"
+        class="p-6 my-12 scroll-mt-20 widescreen:section-min-height tallscreen:section-min-height"
+        >
+            <h2
+            class="text-4xl text-center font-bold sm:text-5xl mb-6"
+            >
+            Testimonials
+            </h2>
+            <figure class="my-12">
+            <section class="bg-[url('https://t4.ftcdn.net/jpg/05/12/16/47/360_F_512164771_mCQUWVfAhaVWpjTVGYuSWRJL2z3hIQ3s.jpg')] bg-cover bg-no-repeat rounded-3xl">
+                <blockquote class="bg-emerald-800 bg-opacity-50 backdrop-blur pl-14 pr-8 py-12 rounded-3xl relative ">
+                    <p
+                    class="text-2xl text-left mt-2 text-white dark:text-slate-400 before:content-['\201C'] before:font-serif before:absolute before:top-0 before:left-0 before:text-9xl before:text-white before:opacity-25 before:transform before:translate-x-2 before:translate-y-2 after:content-['\201D'] after:font-serif after:absolute after:-bottom-20 after:right-0 after:text-9xl after:text-white after:opacity-25 after:transform after:-translate-x-2 after:-translate-y-2"
+                    >
+                    Thanks to the incredible tutoring style of the teachers, my tajweed and recitation have improved significantly over the past 2-3 months. I can now recite the Quran with a much better voice and without any mistakes. 
+                    </p>
+                </blockquote>
+            </section>
+            <figcaption
+                class="italic text-xl sm:text-2xl text-right mt-2 text-slate-500 dark:text-slate-400"
+            >
+                &#8212; Abdul Khaliq, Pakistan
+            </figcaption>
+            </figure>
+            <figure class="my-12 ">
+            <section class="bg-[url('https://t4.ftcdn.net/jpg/05/12/16/47/360_F_512164771_mCQUWVfAhaVWpjTVGYuSWRJL2z3hIQ3s.jpg')] bg-cover bg-no-repeat rounded-3xl">
+                <blockquote
+                    class="bg-emerald-800 bg-opacity-50 backdrop-blur pl-14 pr-8 py-12 rounded-3xl relative"
+                >
+                    <p
+                    class="text-2xl text-left mt-2 text-white dark:text-slate-400 before:content-['\201C'] before:font-serif before:absolute before:top-0 before:left-0 before:text-9xl before:text-white before:opacity-25 before:transform before:translate-x-2 before:translate-y-2 after:content-['\201D'] after:font-serif after:absolute after:-bottom-20 after:right-0 after:text-9xl after:text-white after:opacity-25 after:transform after:-translate-x-2 after:-translate-y-2"
+                    >
+                    The teachers here at Al-Aswad Islamic Institute are very helpful and understanding, but the best thing about them is that they make learning the Quran a fun experience. They deserve 5 stars... 
+                    </p>
+                </blockquote>
+            </section>
+            <figcaption
+                class="italic text-xl sm:text-2xl text-right mt-2 text-slate-500 dark:text-slate-400"
+            >
+                &#8212; Muhammad Zubair, Qatar
+            </figcaption>
+            </figure>
+            <figure class="my-12">
+            <section class="bg-[url('https://t4.ftcdn.net/jpg/05/12/16/47/360_F_512164771_mCQUWVfAhaVWpjTVGYuSWRJL2z3hIQ3s.jpg')] bg-cover bg-no-repeat rounded-3xl">
+                <blockquote
+                    class="bg-emerald-800 bg-opacity-50 backdrop-blur pl-14 pr-8 py-12 rounded-3xl relative"
+                >
+                    <p
+                    class="text-2xl text-left mt-2 text-white dark:text-slate-400 before:content-['\201C'] before:font-serif before:absolute before:top-0 before:left-0 before:text-9xl before:text-white before:opacity-25 before:transform before:translate-x-2 before:translate-y-2 after:content-['\201D'] after:font-serif after:absolute after:-bottom-20 after:right-0 after:text-9xl after:text-white after:opacity-25 after:transform after:-translate-x-2 after:-translate-y-2"
+                    >
+                    It's been 2 months since I've joined Al-Aswad Islamic Institute, and my experience so far has been pretty great. The timings are very flexible and learning the Quran has never been so fun. The teachers are also very cooperative and helpful. I really recommend it to anyone who wants to improve their Quran recitation 💯
+                    </p>
+                </blockquote>
+            </section>
+            <figcaption
+                class="italic text-xl sm:text-2xl text-right mt-2 text-slate-500 dark:text-slate-400"
+            >
+                &#8212; Muhammad Abdullah, Qatar
+            </figcaption>
+            </figure>
+        </section>
+        <section class="flex flex-col gap-y-10 mb-24 mt-16 scroll-mt-28 px-10" id="choice">
+            <h1 class="text-4xl font-semibold sm:text-5xl font-[Calibri] text-center">The Choice Is Yours</h1>
+            <p class="text-center text-xl sm:text-2xl text-slate-800 dark:text-slate-400">In life, there are various moments where you must make an important decision... <br> This is one of those moments</p>
+            <section class="flex justify-around flex-col gap-y-4 md:flex-row">
+                <p class="text-xl sm:text-2xl text-slate-800 dark:text-slate-400 text-center">Take Action <br> Make the Quran your Companion <a href="register.html"><button class="px-6 py-3 text-lg sm:text-xl font-semibold border-4 rounded-full hover:bg-emerald-700 hover:text-white border-emerald-700 dark:border-emerald-700 my-5 mx-auto block">Join Us Now</button></a></p>
+                <p class="text-2xl sm:text-3xl text-slate-800 dark:text-slate-400 font-extrabold text-center">OR</p>
+                <p class="text-xl sm:text-2xl text-slate-800 dark:text-slate-400 text-center">Do Nothing <br> Ignore the word of your Creator<a href="http://www.netflix.com" target="_blank"><button class="px-6 py-3 text-lg sm:text-xl font-semibold border-4 rounded-full hover:bg-rose-700 hover:text-white border-rose-700 dark:border-rose-700 my-5 mx-auto block">Go Watch Netflix</button></a></p>
+            </section>
+            
+        </section>
+    </main>
+    <footer id="footer" class="bg-[url('https://t4.ftcdn.net/jpg/05/12/16/47/360_F_512164771_mCQUWVfAhaVWpjTVGYuSWRJL2z3hIQ3s.jpg')] bg-cover bg-no-repeat">
+        <section class="w-full min-h-[15rem] bg-emerald-800 bg-opacity-50 backdrop-blur  py-28 text-white">
+            <section class="flex pl-24 justify-evenly gap-y-8 flex-col sm:flex-row">
+                <section class="space-y-6">
+                    <h1 class="text-xl font-serif font-medium"><span class="underline underline-offset-8 underline-color">Al-Asw</span>ad Islamic Institute</h1>
+                    <ul class="space-y-4 text-slate-300 font-medium">
+                        <li><a href="index.html" class="hover:pl-4 footer-links hover:text-slate-50">Home</a></li>
+                        <li><a href="#mission" class="hover:pl-4 footer-links hover:text-slate-50">Mission</a></li>
+                        <li><a href="#testimonials" class="hover:pl-4 footer-links hover:text-slate-50">Testimonials</a></li>
+                        <li><a href="#choice" class="hover:pl-4 footer-links hover:text-slate-50">The Choice</a></li>
+                        <li><a href="register.html" class="hover:pl-4 footer-links hover:text-slate-50">Join Us</a></li>
+                    </ul>
+                </section>
+                <section class="space-y-6">
+                    <h1 class="text-xl font-serif font-medium"><span class="underline underline-offset-8 underline-color">Foll</span>ow Us</h1>
+                    <section class="space-x-3">
+                        <a href="https://twitter.com" target="_blank" class="inline-block bg-emerald-800 h-10 w-10 text-lg rounded-full text-center social-links hover:bg-slate-300 hover:text-emerald-800">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://www.linkedin.com" target="_blank" class="inline-block bg-emerald-800 h-10 w-10 text-lg rounded-full text-center social-links hover:bg-slate-300 hover:text-emerald-800">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="mailto:" target="_blank" class="inline-block bg-emerald-800 h-10 w-10 text-lg rounded-full text-center social-links hover:bg-slate-300 hover:text-emerald-800">
+                            <i class="fa-solid fa-envelope"></i>
+                        </a>
+                        <a href="https://wa.me/92" target="_blank" class="inline-block bg-emerald-800 h-10 w-10 text-lg rounded-full text-center social-links hover:bg-slate-300 hover:text-emerald-800">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+                    </section>
+                </section>
+            </section>
+            <hr class="mx-auto bg-black dark:bg-white w-2/3 mt-14"/>
+            <h1 class="text-center mt-14 -mb-14">Al-Aswad Islamic Institute © <script>document.write(new Date().getFullYear())</script> Copyrights. All Rights Reserved</h1>
+        </section>
+    </footer>
+</body>
+</html>
+<script src="./build/script.js"></script>
