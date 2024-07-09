@@ -65,3 +65,21 @@ button {
     transition: all 0.3s ease;
 }
 
+.glow {
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @keyframes glow {
+    from {
+      text-shadow:  0 0 3.75px #019432, 0 0 5px #019432, 0 0 6.25px #019432, 0 0 7.5px #019432, 0 0 13px #019432;
+    }
+    
+    to {
+      text-shadow:  0 0 3.75px #00a838, 0 0 5px #00a838, 0 0 6.25px #00a838, 0 0 7.5px #00a838, 0 0 13px #00a838, 0 0 10px #00a838;
+    }
+  }
+
